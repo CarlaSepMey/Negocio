@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded', () => {
       data.plantas.forEach((plant) => {
         const plantItem = `
             <div class="col-lg-4 tienda-item">
-              <a href="${plant.image}" class="glightbox" data-gallery="tienda-gallery">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal">
                 <img src="${plant.image}" class="menu-img img-fluid" alt="${plant.nombre_común}">
               </a>
               <h4>${plant.nombre_común}</h4>
